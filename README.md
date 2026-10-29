@@ -1,5 +1,7 @@
 # Chimera Lab
 
+[About](about/)
+
 Chimera Lab is an independent exploration of the intersection of applied mathematics, machine learning, and science.
 
 The central idea is simple: **combine mathematical theory with computational experiments to understand how the world works—and discover what we might otherwise miss.**
