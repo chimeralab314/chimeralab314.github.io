@@ -1,0 +1,17 @@
+brunton2026optimization:
+  type: book
+  author: "Brunton, Steven L."
+  year: 2026
+  title: "Optimization: A Bootcamp for Machine Learning, Inverse Problems, and Control"
+  publisher: "Cambridge University Press"
+  isbn: "9781009755863"
+  doi: "10.1017/9781009755856"
+
+ruder2016gradient:
+  type: article
+  author: "Ruder, Sebastian"
+  year: 2016
+  title: "An overview of gradient descent optimization algorithms"
+  journal: "arXiv preprint"
+  arxiv: "1609.04747"
+  note: "Revised June 15, 2017"
