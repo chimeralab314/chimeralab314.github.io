@@ -120,3 +120,28 @@ body {
         padding: 0 20px;
     }
 }
+
+
+/* ARTICLE LISTING TAGS */
+
+.article-list-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.article-tag {
+    display: inline-block;
+    padding: 3px 10px;
+
+    background-color: #eef3f8;
+    border: 1px solid #d5dfe9;
+    border-radius: 4px;
+
+    color: #40566b;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.6;
+}
