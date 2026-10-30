@@ -19,8 +19,23 @@ We approach scientific questions through three complementary perspectives:
 
 The objective is not merely to apply existing tools, but to understand why they work, where they fail, and what new possibilities emerge from that understanding.
 
-## Selected Work
 
-Research articles and computational investigations will appear here.
+## Recent Articles
 
-*The first research articles are coming soon.*
+{% for post in site.posts %}
+
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+<div class="article-list-tags">
+  {% for tag in post.tags %}
+    <span class="article-tag">{{ tag }}</span>
+  {% endfor %}
+</div>
+
+<p class="article-date">
+  {{ post.date | date: "%B %-d, %Y" }}
+</p>
+
+{{ post.excerpt | strip_html }}
+
+{% endfor %}
