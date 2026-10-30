@@ -40,7 +40,7 @@ Now let's test the `align` environment using the gradient of the quadratic objec
 
 \begin{align}
 \nabla f(\mathbf{x})
-&= \frac{1}{2}(Q+Q^T)\mathbf{x} - \mathbf{b} \notag \\\\
+&= \frac{1}{2}(Q+Q^T)\mathbf{x} - \mathbf{b} \\\\
 &= Q\mathbf{x} - \mathbf{b}.
 \label{eq:gradient}
 \end{align}
