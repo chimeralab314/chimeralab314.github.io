@@ -285,3 +285,38 @@ body {
 .article-content pre code {
     font-size: inherit;
 }
+
+
+/* =================================
+   ARTICLE METADATA
+   ================================= */
+
+.article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 14px;
+}
+
+.article-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.article-meta .article-date {
+    margin: 0;
+}
+
+.reading-time {
+    font-size: 14px;
+    font-style: italic;
+    color: #888888;
+}
+
+.meta-separator {
+    font-size: 14px;
+    color: #cccccc;
+}
