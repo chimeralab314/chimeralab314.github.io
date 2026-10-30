@@ -1,3 +1,4 @@
+
 ---
 layout: default
 ---
@@ -8,14 +9,27 @@ layout: default
 
     <h1>{{ page.title }}</h1>
 
-    <p class="article-date">
-      {{ page.date | date: "%B %-d, %Y" }}
-    </p>
-
     <div class="article-tags">
       {% for tag in page.tags %}
         <span class="article-tag">{{ tag }}</span>
       {% endfor %}
+    </div>
+
+    {% assign word_count = content | number_of_words %}
+    {% assign reading_time = word_count | divided_by: 200.0 | ceil %}
+
+    <div class="article-meta">
+
+      <span class="article-date">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </span>
+
+      <span class="meta-separator">|</span>
+
+      <span class="reading-time">
+        {{ reading_time }} min read
+      </span>
+
     </div>
 
   </header>
