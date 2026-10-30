@@ -41,7 +41,7 @@ Now let's test the `align` environment using the gradient of the quadratic objec
 \begin{equation}
 \begin{aligned}
 \nabla f(\mathbf{x})
-&= \frac{1}{2}(Q+Q^T)\mathbf{x} - \mathbf{b} \\\\
+&= \frac{1}{2}(Q+Q^T)\mathbf{x} - \mathbf{b} \cr
 &= Q\mathbf{x} - \mathbf{b}.
 \end{aligned}
 \label{eq:gradient}
