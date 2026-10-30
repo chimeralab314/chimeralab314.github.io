@@ -1,6 +1,7 @@
 {%- assign reference = site.data.references[include.key] -%}
 {%- if reference -%}
-({{ reference.author | split: ", " | first }}, {{ reference.year }})
+{%- assign surname = reference.author | split: ", " | first -%}
+<a class="citation" href="#ref-{{ include.key }}">({{ surname }}, {{ reference.year }})</a>
 {%- else -%}
-[Reference not found: {{ include.key }}]
+<span class="citation-error">[Reference not found: {{ include.key }}]</span>
 {%- endif -%}
