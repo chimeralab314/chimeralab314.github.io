@@ -5,6 +5,9 @@ date: 2026-10-30
 categories: [Optimization]
 tags: [Mathematics, MathJax, Testing]
 excerpt: "A temporary test article to verify mathematical rendering, equation numbering, alignment, and cross-referencing."
+references:
+  - brunton2026optimization
+  - ruder2016gradient
 ---
 
 This is a temporary article for testing mathematical typesetting in Chimera Lab.
