@@ -171,7 +171,7 @@ body {
 /* Publication date */
 
 .article-date {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Lora', Georgia, serif;
     font-size: 14px;
     font-style: italic;
     color: #888888;
@@ -236,7 +236,40 @@ body {
     margin-bottom: 16px;
 }
 
-.article-date,
-.article-tags {
-    font-family: 'Lora', Georgia, serif;
+/* =================================
+   ARTICLE RESPONSIVENESS
+   ================================= */
+
+@media (max-width: 650px) {
+
+    .article-header h1 {
+        font-size: 34px;
+    }
+
+    .article-content {
+        font-size: 19px;
+    }
+
+    .article-content h2 {
+        font-size: 27px;
+    }
+
+    .article-content h3 {
+        font-size: 23px;
+    }
+}
+
+/* =================================
+   CODE TYPOGRAPHY
+   ================================= */
+
+.article-content pre,
+.article-content code {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.85em;
+}
+
+.article-content pre {
+    line-height: 1.5;
+    overflow-x: auto;
 }
