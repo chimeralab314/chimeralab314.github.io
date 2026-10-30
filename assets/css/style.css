@@ -142,7 +142,7 @@ body {
     border-radius: 4px;
 
     color: #40566b;
-    font-family: Arial, sans-serif;
+    font-family: 'Lora', Georgia, serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 1.6;
@@ -266,10 +266,22 @@ body {
 .article-content pre,
 .article-content code {
     font-family: Consolas, "Courier New", monospace;
+}
+
+.article-content code {
     font-size: 0.85em;
 }
 
 .article-content pre {
+    font-size: 0.85em;
     line-height: 1.5;
     overflow-x: auto;
+    padding: 18px 22px;
+    background: #f5f6f7;
+    border: 1px solid #e5e7e9;
+    border-radius: 5px;
+}
+
+.article-content pre code {
+    font-size: inherit;
 }
