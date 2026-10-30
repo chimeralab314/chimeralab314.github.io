@@ -1,3 +1,8 @@
+---
+layout: default
+title: Chimera Lab
+---
+
 # Chimera Lab
 
 [Blog](./) · [About](about/) · [Contact](contact/)
