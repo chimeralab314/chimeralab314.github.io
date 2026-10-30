@@ -1,0 +1,9 @@
+{% assign reference = site.data.references[include.key] %}
+
+{% if reference %}
+  {% assign author_parts = reference.author | split: ", " %}
+  {% assign surname = author_parts[0] %}
+  <span class="citation">({{ surname }}, {{ reference.year }})</span>
+{% else %}
+  <span class="citation-error">[Reference not found: {{ include.key }}]</span>
+{% endif %}
