@@ -1,0 +1,57 @@
+{% if page.references and page.references.size > 0 %}
+<section class="references-section" id="references">
+
+  <h2>References</h2>
+
+  <ol class="references-list">
+
+    {% for reference_key in page.references %}
+      {% assign reference = site.data.references[reference_key] %}
+
+      <li id="ref-{{ reference_key }}">
+
+        {% if reference %}
+
+          {{ reference.author }} ({{ reference.year }}).
+          <em>{{ reference.title }}</em>.
+
+          {% if reference.type == "book" %}
+            {{ reference.publisher }}.
+          {% elsif reference.journal %}
+            {{ reference.journal }}.
+          {% endif %}
+
+          {% if reference.doi %}
+            <a href="https://doi.org/{{ reference.doi }}"
+               target="_blank"
+               rel="noopener noreferrer">
+              https://doi.org/{{ reference.doi }}
+            </a>.
+          {% elsif reference.arxiv %}
+            <a href="https://arxiv.org/abs/{{ reference.arxiv }}"
+               target="_blank"
+               rel="noopener noreferrer">
+              arXiv:{{ reference.arxiv }}
+            </a>.
+          {% endif %}
+
+          {% if reference.note %}
+            {{ reference.note }}.
+          {% endif %}
+
+        {% else %}
+
+          <span class="citation-error">
+            Reference not found: {{ reference_key }}
+          </span>
+
+        {% endif %}
+
+      </li>
+
+    {% endfor %}
+
+  </ol>
+
+</section>
+{% endif %}
