@@ -3,10 +3,6 @@ layout: default
 title: Chimera Lab
 ---
 
-# Chimera Lab
-
-*To create what others can't imagine.*
-
 ## Welcome
 
 Chimera Lab is an independent exploration of the intersection of applied mathematics, machine learning, and science.
