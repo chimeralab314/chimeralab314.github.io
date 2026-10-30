@@ -1,6 +1,6 @@
 # Chimera Lab
 
-[About](about/)
+[Blog](./) · [About](about/) · [Contact](contact/)
 
 Chimera Lab is an independent exploration of the intersection of applied mathematics, machine learning, and science.
 
