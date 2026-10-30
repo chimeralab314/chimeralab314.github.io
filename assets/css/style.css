@@ -2,6 +2,8 @@
    CHIMERA LAB - MAIN STYLESHEET
    ================================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -11,8 +13,8 @@ body {
     padding: 0;
     background: #ffffff;
     color: #333333;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 17px;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 18px;
     line-height: 1.7;
 }
 
@@ -191,4 +193,50 @@ body {
     border: none;
     border-top: 1px solid #e8e8e8;
     margin: 28px 0 35px;
+}
+
+/* =================================
+   CHIMERA LAB - ARTICLE TYPOGRAPHY
+   ================================= */
+
+.article-page {
+    font-family: 'Lora', Georgia, serif;
+}
+
+.article-header h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 22px;
+}
+
+.article-content {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 21px;
+    line-height: 1.75;
+    max-width: 900px;
+}
+
+.article-content p {
+    margin-bottom: 22px;
+}
+
+.article-content h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.article-content h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.article-date,
+.article-tags {
+    font-family: 'Lora', Georgia, serif;
 }
