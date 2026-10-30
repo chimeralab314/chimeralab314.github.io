@@ -56,3 +56,11 @@ We can refer to the quadratic objective function using Equation \\(\eqref{eq:qua
 Similarly, Equation \\(\eqref{eq:gradient}\\) gives its gradient when \(Q\) is symmetric.
 
 This concludes the MathJax rendering test.
+
+## 6. Reference test to text book and paper
+
+Gradient descent is a fundamental optimization method
+{% include citation.html key="brunton2026optimization" %}.
+
+Several variants of gradient descent are discussed by
+{% include citation.html key="ruder2016gradient" %}.
