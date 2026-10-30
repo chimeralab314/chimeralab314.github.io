@@ -24,7 +24,9 @@ The objective is not merely to apply existing tools, but to understand why they 
 
 {% for post in site.posts %}
 
-### [{{ post.title }}]({{ post.url | relative_url }})
+<h3 class="article-title">
+  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+</h3>
 
 <div class="article-list-tags">
   {% for tag in post.tags %}
@@ -36,6 +38,10 @@ The objective is not merely to apply existing tools, but to understand why they 
   {{ post.date | date: "%B %-d, %Y" }}
 </p>
 
-{{ post.excerpt | strip_html }}
+<p class="article-excerpt">
+  {{ post.excerpt | strip_html }}
+</p>
+
+<hr class="article-divider">
 
 {% endfor %}
