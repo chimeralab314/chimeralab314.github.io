@@ -38,12 +38,14 @@ Notice that we did not manually specify the equation number.
 
 Now let's test the `align` environment using the gradient of the quadratic objective function.
 
-\begin{align}
+\begin{equation}
+\begin{aligned}
 \nabla f(\mathbf{x})
 &= \frac{1}{2}(Q+Q^T)\mathbf{x} - \mathbf{b} \\\\
 &= Q\mathbf{x} - \mathbf{b}.
+\end{aligned}
 \label{eq:gradient}
-\end{align}
+\end{equation}
 
 where the second equality follows from the assumption that \(Q\) is symmetric.
 
