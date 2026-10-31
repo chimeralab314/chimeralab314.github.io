@@ -76,6 +76,6 @@ As illustrated in [Figure 1](#figure-gd-contour), the choice of step size signif
    id="gd-contour"
    src="/assets/images/articles/contour-plot.png"
    alt="Contour plot comparing gradient descent trajectories for step sizes gamma equals 0.4 and gamma equals 0.1."
-   caption="Gradient descent trajectories on the level sets of a quadratic objective function, comparing an optimal step size (gamma = 0.4) with a smaller step size (gamma = 0.1)."
+   caption="Gradient descent trajectories on the level sets of a quadratic objective function, comparing an optimal step size (\\( \gamma \\) = 0.4) with a smaller step size (\\( \gamma \\) = 0.1)."
    source="Generated using Python."
 %}
