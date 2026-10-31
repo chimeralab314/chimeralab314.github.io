@@ -70,7 +70,7 @@ Several variants of gradient descent are discussed by {% include citation.html k
 
 The following figure illustrates how different step sizes affect the gradient descent trajectory over the level sets of a quadratic objective function.
 
-As illustrated in [Figure 1](#figure-gd-contour), the choice of step size significantly affects the gradient descent trajectory.
+As illustrated in [Figure](#figure-gd-contour), the choice of step size affects the gradient descent trajectory.
 
 {% include figure.html
    id="gd-contour"
