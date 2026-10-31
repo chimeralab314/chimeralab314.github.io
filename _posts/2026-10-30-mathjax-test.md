@@ -79,3 +79,13 @@ As illustrated in [Figure](#figure-gd-contour), the choice of step size affects 
    caption="Gradient descent trajectories on the level sets of a quadratic objective function, comparing an optimal step size (\( \gamma \) = 0.4) with a smaller step size (\( \gamma \) = 0.1)."
    source="Generated using Python."
 %}
+
+The following figure shows another perspective on the convergence behavior. The convergence behavior is illustrated in [Figure](#figure-gd-convergence).
+
+{% include figure.html
+   id="gd-convergence"
+   src="/assets/images/articles/gd-second-plot.png"
+   alt="Gradient descent convergence plot."
+   caption="Convergence behavior of gradient descent for the selected step sizes."
+   source="Generated using Python."
+%}
