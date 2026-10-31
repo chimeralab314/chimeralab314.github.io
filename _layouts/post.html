@@ -37,6 +37,46 @@ layout: default
     {{ content }}
   </div>
 
+<script>
+(function () {
+
+  const figures = document.querySelectorAll(
+    ".article-content .article-figure[id]"
+  );
+
+  const figureNumbers = new Map();
+
+  figures.forEach((figure, index) => {
+
+    const number = index + 1;
+
+    figureNumbers.set("#" + figure.id, number);
+
+    const numberElement = figure.querySelector(".figure-number");
+
+    if (numberElement) {
+      numberElement.textContent = "Figure " + number + ". ";
+    }
+
+  });
+
+  const figureLinks = document.querySelectorAll(
+    '.article-content a[href^="#figure-"]'
+  );
+
+  figureLinks.forEach((link) => {
+
+    const number = figureNumbers.get(link.getAttribute("href"));
+
+    if (number !== undefined) {
+      link.textContent = "Figure " + number;
+    }
+
+  });
+
+})();
+</script>
+  
   {% include references.html %}
   
 </article>
