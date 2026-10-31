@@ -15,7 +15,20 @@
 
       {% if include.source %}
         <span class="figure-source">
-          Source: {{ include.source }}
+          Source:
+          {% if include.source_url %}
+            <a href="{{ include.source_url }}"
+               target="_blank"
+               rel="noopener noreferrer">{{ include.source }}</a>
+          {% else %}
+            {{ include.source }}
+          {% endif %}
+        </span>
+      {% endif %}
+
+      {% if include.license %}
+        <span class="figure-source">
+          License: {{ include.license }}
         </span>
       {% endif %}
 
