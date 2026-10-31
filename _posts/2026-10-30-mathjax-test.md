@@ -89,3 +89,11 @@ The following figure shows another perspective on the convergence behavior. The 
    caption="Convergence behavior of gradient descent for the selected step sizes."
    source="Generated using Python."
 %}
+
+## Reproducibility
+
+The numerical experiments and figures presented in this article
+were generated using Python. The complete implementation and
+experimental setup are available in the accompanying Jupyter notebook.
+
+[View the Jupyter Notebook](https://github.com/wap314/Gradient-Descent-Experiment/blob/main/GD_experiment.ipynb).
