@@ -406,16 +406,3 @@ body {
 /* =================================
    AUTOMATIC FIGURE NUMBERING
    ================================= */
-
-.article-content {
-    counter-reset: figure;
-}
-
-.article-figure {
-    counter-increment: figure;
-}
-
-.figure-number::before {
-    content: "Figure " counter(figure) ". ";
-    font-weight: 600;
-}
