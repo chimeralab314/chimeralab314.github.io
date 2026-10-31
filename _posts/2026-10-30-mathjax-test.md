@@ -65,3 +65,15 @@ This concludes the MathJax rendering test.
 Gradient descent is a fundamental optimization method {% include citation.html key="brunton2026optimization" %}.
 
 Several variants of gradient descent are discussed by {% include citation.html key="ruder2016gradient" %}.
+
+## 7. Scientific figure test
+
+The following figure illustrates how different step sizes affect the gradient descent trajectory over the level sets of a quadratic objective function.
+
+{% include figure.html
+   id="gd-contour"
+   src="/assets/images/articles/contour-plot.png"
+   alt="Contour plot comparing gradient descent trajectories for step sizes gamma equals 0.4 and gamma equals 0.1."
+   caption="Gradient descent trajectories on the level sets of a quadratic objective function, comparing an optimal step size (gamma = 0.4) with a smaller step size (gamma = 0.1)."
+   source="Generated using Python."
+%}
