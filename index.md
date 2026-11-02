@@ -38,8 +38,13 @@ The objective is not merely to apply existing tools, but to understand why they 
   {{ post.date | date: "%B %-d, %Y" }}
 </p>
 
-<p class="article-excerpt">
-  {{ post.excerpt | strip_html }}
+{% assign word_count = post.content | number_of_words %}
+{% assign reading_time = word_count | divided_by: 200.0 | ceil %}
+
+<p class="article-date">
+  {{ post.date | date: "%B %-d, %Y" }}
+  <span class="meta-separator">|</span>
+  <span class="reading-time">{{ reading_time }} min read</span>
 </p>
 
 <hr class="article-divider">
