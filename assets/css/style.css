@@ -406,10 +406,11 @@ body {
 /* HOMEPAGE ARTICLE LISTING */
 
 .main-content:has(.recent-articles) {
-    max-width: 1060px;
+    max-width: 1068px;
 }
 
 .recent-articles {
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1008px;
     margin: 0 auto;
 }
