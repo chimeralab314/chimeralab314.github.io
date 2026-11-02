@@ -408,11 +408,12 @@ body {
 .main-content:has(.recent-articles) {
     width: 100%;
     max-width: 100%;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .recent-articles {
-    width: calc(100% - 40px);
-    max-width: 1008px;
+    width: 100%;
+    max-width: 840px;
     margin: 0 auto;
 }
