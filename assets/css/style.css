@@ -406,11 +406,14 @@ body {
 /* HOMEPAGE ARTICLE LISTING */
 
 .main-content:has(.recent-articles) {
-    max-width: 1068px;
+    width: 100%;
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .recent-articles {
-    width: 100%;
-    max-width: 1008px;
+    width: calc(100% - 40px);
+    max-width: 1008px !important;
     margin: 0 auto;
 }
