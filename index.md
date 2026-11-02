@@ -3,6 +3,8 @@ layout: default
 title: Chimera Lab
 ---
 
+<div class="recent-articles">
+  
 ## Recent Articles
 
 {% for post in site.posts %}
@@ -29,3 +31,5 @@ title: Chimera Lab
 <hr class="article-divider">
 
 {% endfor %}
+
+</div>
