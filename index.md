@@ -34,10 +34,6 @@ The objective is not merely to apply existing tools, but to understand why they 
   {% endfor %}
 </div>
 
-<p class="article-date">
-  {{ post.date | date: "%B %-d, %Y" }}
-</p>
-
 {% assign word_count = post.content | number_of_words %}
 {% assign reading_time = word_count | divided_by: 200.0 | ceil %}
 
