@@ -417,3 +417,12 @@ body {
     max-width: 1008px !important;
     margin: 0 auto;
 }
+
+/* Match Off the Convex Path article column */
+
+.recent-articles {
+    width: 100%;
+    max-width: 1008px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
