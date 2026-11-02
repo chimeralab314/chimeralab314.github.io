@@ -407,22 +407,12 @@ body {
 
 .main-content:has(.recent-articles) {
     width: 100%;
-    max-width: 100% !important;
-    padding-left: 0;
-    padding-right: 0;
+    max-width: 100%;
+    padding: 0;
 }
 
 .recent-articles {
     width: calc(100% - 40px);
-    max-width: 1008px !important;
+    max-width: 1008px;
     margin: 0 auto;
-}
-
-/* Match Off the Convex Path article column */
-
-.recent-articles {
-    width: 100%;
-    max-width: 1008px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
 }
