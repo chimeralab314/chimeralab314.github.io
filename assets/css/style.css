@@ -405,6 +405,10 @@ body {
 
 /* HOMEPAGE ARTICLE LISTING */
 
+.main-content:has(.recent-articles) {
+    max-width: 1060px;
+}
+
 .recent-articles {
     max-width: 1000px;
     margin: 0 auto;
