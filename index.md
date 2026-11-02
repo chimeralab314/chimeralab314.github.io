@@ -5,7 +5,7 @@ title: Chimera Lab
 
 <div class="recent-articles">
   
-## Recent Articles
+<h2>Recent Articles</h2>
 
 {% for post in site.posts %}
 
