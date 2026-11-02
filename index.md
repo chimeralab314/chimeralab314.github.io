@@ -28,6 +28,10 @@ title: Chimera Lab
   <span class="reading-time">{{ reading_time }} min read</span>
 </p>
 
+<p class="article-excerpt">
+  {{ post.excerpt | strip_html | normalize_whitespace }}
+</p>
+
 <hr class="article-divider">
 
 {% endfor %}
