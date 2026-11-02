@@ -403,6 +403,9 @@ body {
     }
 }
 
-/* =================================
-   AUTOMATIC FIGURE NUMBERING
-   ================================= */
+/* HOMEPAGE ARTICLE LISTING */
+
+.recent-articles {
+    max-width: 900px;
+    margin: 0 auto;
+}
