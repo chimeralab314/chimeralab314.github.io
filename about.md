@@ -19,7 +19,7 @@ The central ambition is to go beyond applying established methods—to understan
 
 Our approach combines mathematical reasoning with computational and empirical investigation. We develop mathematical models, study their theoretical properties, and use simulations and data analysis to explore their behavior.
 
-Our goal is not merely to apply existing methods, but to understand their foundations, recognize their limitations, and explore new possibilities. Chimera Lab exists to bring these perspectives together.
+We view unexpected results as opportunities to challenge assumptions, refine our understanding, and formulate new questions.
 
 ## Research Interests
 
