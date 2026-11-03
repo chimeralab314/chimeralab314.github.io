@@ -3,33 +3,37 @@ title: "About"
 permalink: /about/
 ---
 
-# About Chimera Lab
+## About Me
 
-Chimera Lab is an independent research and learning project exploring the intersection of applied mathematics, machine learning, and science.
+My name is Wisnu Adi Pradana. My fascination with science, particularly physics, began at an early age. I have always been drawn to the fundamental questions science encourages us to ask and its pursuit of deeper explanations of the world around us.
 
-## Why Chimera?
+Over time, my intellectual curiosity has evolved toward the intersection of applied mathematics, machine learning, and science. I am interested in how mathematical theories, computational methods, and scientific inquiry can complement one another to investigate complex phenomena and uncover new insights.
 
-Many interesting scientific problems sit at the boundaries between disciplines. Mathematics provides the language and structure of models; computation allows us to explore their consequences; and data connects our ideas to observations of the world.
+I created **Chimera Lab** to document this journey through exploration, mathematical investigation, and computational experiments. Inspired by the hybrid creature of Greek mythology, the name *Chimera* reflects the interdisciplinary nature of my interests and the possibilities that emerge when different fields come together.
+
+## Welcome to Chimera Lab
+
+Chimera Lab is an independent exploration of the intersection of applied mathematics, machine learning, and science. It is a space for investigating ideas, connecting concepts across disciplines, and exploring how mathematical reasoning and computational tools can help us understand complex phenomena.
+
+The central ambition is to go beyond applying established methods—to understand their foundations, explore their limitations, and discover new possibilities through the interplay of theory and experimentation.
+
+## Research Philosophy
+
+Our approach combines mathematical reasoning with computational and empirical investigation. We develop mathematical models, study their theoretical properties, and use simulations and data analysis to explore their behavior.
+
+We view unexpected results as opportunities to challenge assumptions, refine our understanding, and formulate new questions. Our goal is not merely to apply existing methods, but to understand their foundations, recognize their limitations, and explore new possibilities.
 
 Chimera Lab exists to bring these perspectives together.
 
-## How We Work
-
-The approach is both theory-driven and data-driven.
-
-We begin with questions, develop mathematical models, investigate their properties, and use computational experiments to test our understanding. When results disagree with expectations, we treat the discrepancy as an opportunity to learn rather than something to ignore.
-
-The goal is not simply to use existing algorithms, but to understand their foundations, limitations, and potential for new discoveries.
-
 ## Research Interests
 
-Our explorations may include:
+Our explorations span several interconnected fields:
 
 - Applied mathematics and numerical optimization
 - Machine learning and statistical methods
 - Dynamical systems and control theory
 - Scientific computing and simulation
 
-These interests are connected by a common question:
+These interests are united by a common question:
 
 **How can mathematical reasoning and computational evidence help us discover something we did not know before?**
