@@ -12,9 +12,12 @@ references: []
 
 Consider the problem of minimizing a smooth *unconstrained* objective function \\( f(x) \\) with respect to a set of decision variables \\( \mathbf{x} \in \mathbb{R}^n \\):
 
-\\[
+\begin{equation}
   \min_x f(x)
-\\]
+\label{eq:unconstrained_obj_function}
+\end{equation}
+
+The solution of optimization problem \\(\eqref{eq:unconstrained_obj_function}\\) is given by the *optimal* point \\( \mathbf{x}^* \\), which is characterized by the property \\( \nabla f(\mathbf{x}^* =0\\), i.e. the rate of change (evaluated at \\( \mathbf{x}^* \\) in any direction is zero.
 
 ## Gradient Descent
 
