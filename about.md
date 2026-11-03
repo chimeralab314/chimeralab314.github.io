@@ -5,11 +5,9 @@ permalink: /about/
 
 ## About Me
 
-My name is Wisnu Adi Pradana. My fascination with science, particularly physics, began at an early age. I have always been drawn to the fundamental questions science encourages us to ask and its pursuit of deeper explanations of the world around us.
+Hi there ! My name is Wisnu Adi Pradana. My fascination with science, particularly physics, began at an early age. I have always been drawn to the fundamental questions science encourages us to ask and its pursuit of deeper explanations of the world around us.
 
-Over time, my intellectual curiosity has evolved toward the intersection of applied mathematics, machine learning, and science. I am interested in how mathematical theories, computational methods, and scientific inquiry can complement one another to investigate complex phenomena and uncover new insights.
-
-I created **Chimera Lab** to document this journey through exploration, mathematical investigation, and computational experiments. Inspired by the hybrid creature of Greek mythology, the name *Chimera* reflects the interdisciplinary nature of my interests and the possibilities that emerge when different fields come together.
+Over time, my curiosity has evolved toward the intersection of applied mathematics, machine learning, and science. I created Chimera Lab to document this intellectual journey through exploration and experimentation. Inspired by the hybrid creature of Greek mythology, the name Chimera reflects the interdisciplinary nature of my interests and the possibilities that emerge when different fields come together.
 
 ## Welcome to Chimera Lab
 
@@ -21,9 +19,7 @@ The central ambition is to go beyond applying established methods—to understan
 
 Our approach combines mathematical reasoning with computational and empirical investigation. We develop mathematical models, study their theoretical properties, and use simulations and data analysis to explore their behavior.
 
-We view unexpected results as opportunities to challenge assumptions, refine our understanding, and formulate new questions. Our goal is not merely to apply existing methods, but to understand their foundations, recognize their limitations, and explore new possibilities.
-
-Chimera Lab exists to bring these perspectives together.
+Our goal is not merely to apply existing methods, but to understand their foundations, recognize their limitations, and explore new possibilities. Chimera Lab exists to bring these perspectives together.
 
 ## Research Interests
 
@@ -35,5 +31,4 @@ Our explorations span several interconnected fields:
 - Scientific computing and simulation
 
 These interests are united by a common question:
-
 **How can mathematical reasoning and computational evidence help us discover something we did not know before?**
