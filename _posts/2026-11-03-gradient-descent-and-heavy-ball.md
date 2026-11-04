@@ -10,10 +10,10 @@ references: []
 
 ## Introduction
 
-Consider the problem of minimizing a smooth *unconstrained* objective function \\( f(x) \\) with respect to a set of decision variables \\( \mathbf{x} \in \mathbb{R}^n \\):
+Consider the problem of minimizing a smooth *unconstrained* objective function \\( f( \mathbf{x} ) \\) with respect to a set of decision variables \\( \mathbf{x} \in \mathbb{R}^n \\):
 
 \begin{equation}
-  \min_x f(x)
+  \min_{\mathbf{x}} f( \mathbf{x} )
 \label{eq:unconstrained_obj_function}
 \end{equation}
 
@@ -26,7 +26,8 @@ Gradient descent is an iterative optimization algorithm. Its update rule is give
 \\[
 \mathbf{x}_{k+1}
 =
-\mathbf{x}_k-\gamma\nabla f(\mathbf{x}_k)
+\mathbf{x}_k-\gamma\nabla f(\mathbf{x}_k),
+\qquad k=0,1,2,\ldots
 \\]
 
 ### Stability of Gradient Descent
