@@ -39,9 +39,22 @@ Gradient-based optimization methods are widely used in convex optimization {% in
 
 Given a convex quadratic function, we will examine how step size affect the stability of gradient descent {% include citation.html key="brunton2026optimization" %}.
 
+For a detailed discussion, see [Stability of Gradient Descent](#stability-of-gradient-descent).
+
+For a detailed discussion, see [Optimal Step Size](#optimal-step-size).
+
 ### Optimal Step Size
 
+The optimal step size for gradient descent for a quadratic objective function is given by:
+
+\begin{equation}
+  \gamma^* = \frac{2}{ \lambda_{min} + \lambda_{max} }
+\label{eq:optimal_step_size}
+\end{equation}
+
 ### Convergence Analysis
+
+As discussed in [Stability of Gradient Descent](#stability-of-gradient-descent), the choice of step size determines the convergence behavior. The optimal step size is given by equation \eqref{eq:optimal_step_size}, while the numerical behavior is illustrated in <a href="#figure-gd-contour"></a>.
 
 ### Numerical Experiment
 
