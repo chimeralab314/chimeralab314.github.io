@@ -33,7 +33,7 @@ Gradient descent is an iterative optimization algorithm. Its update rule is give
 \qquad k=0,1,2,\ldots
 \\]
 
-Gradient-based optimization methods are widely used in convex optimization {% include citation.html key="boyd2004convex" %}.
+Gradient-based optimization methods are widely used in convex optimization {% include citation.html key="boyd2004convex" %}. For some practical recommendation related to gradient descent, refer to {% include citation.html key="ruder2016gradient" %} .
 
 ### Stability of Gradient Descent
 
