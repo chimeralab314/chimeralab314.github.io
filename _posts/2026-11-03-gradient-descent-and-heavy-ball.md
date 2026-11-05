@@ -20,7 +20,7 @@ Consider the problem of minimizing a smooth *unconstrained* objective function \
 \label{eq:unconstrained_obj_function}
 \end{equation}
 
-The solution of optimization problem \\(\eqref{eq:unconstrained_obj_function}\\) is given by the *optimal* point \\( \mathbf{x}^* \\), which is characterized by the property \\( \nabla f( \mathbf{x}^* ) =0 \\), i.e. the rate of change (evaluated at \\( \mathbf{x}^* \\) ) in any direction is zero.
+The solution of optimization problem \\(\eqref{eq:unconstrained_obj_function}\\) is given by the *optimal* point \\( \mathbf{x}^* \\), which is characterized by the property \\( \nabla f( \mathbf{x}^* ) =0 \\), i.e. the rate of change (evaluated at \\( \mathbf{x}^* \\) ) in any direction is zero. lorem ipsum dolor sit amet consectetur adipiscing elit lorem non fugiat nulla consequatur nihil quis exercitation cillum labore deserunt quidem laboris aut labore quibusdam quo et optio assumenda do expedita eos dolorem id eligendi nostrud consequatur nulla dolor ut quibusdam minus cupidatat dolor provident cupiditate enim est vel possimus omnis. lorem ipsum dolor sit amet consectetur adipiscing elit lorem non fugiat nulla consequatur nihil quis exercitation cillum labore deserunt quidem laboris aut labore quibusdam quo et optio assumenda do expedita eos dolorem id eligendi nostrud consequatur nulla dolor ut quibusdam minus cupidatat dolor provident cupiditate enim est vel possimus omnis.
 
 ## Gradient Descent
 
@@ -33,7 +33,7 @@ Gradient descent is an iterative optimization algorithm. Its update rule is give
 \qquad k=0,1,2,\ldots
 \\]
 
-Gradient-based optimization methods are widely used in convex optimization {% include citation.html key="boyd2004convex" %}. For some practical recommendation related to gradient descent, refer to {% include citation.html key="ruder2016gradient" %} .
+Gradient-based optimization methods are widely used in convex optimization {% include citation.html key="boyd2004convex" %}. For some practical recommendation related to gradient descent, refer to {% include citation.html key="ruder2016gradient" %}. lorem ipsum dolor sit amet consectetur adipiscing elit lorem non fugiat nulla consequatur nihil quis exercitation cillum labore deserunt quidem laboris aut labore quibusdam quo et optio assumenda do expedita eos dolorem id eligendi nostrud consequatur nulla dolor ut quibusdam minus cupidatat dolor provident cupiditate enim est vel possimus omnis. lorem ipsum dolor sit amet consectetur adipiscing elit lorem non fugiat nulla consequatur nihil quis exercitation cillum labore deserunt quidem laboris aut labore quibusdam quo et optio assumenda do expedita eos dolorem id eligendi nostrud consequatur nulla dolor ut quibusdam minus cupidatat dolor provident cupiditate enim est vel possimus omnis.
 
 ### Stability of Gradient Descent
 
@@ -96,5 +96,10 @@ As discussed in [Stability of Gradient Descent](#stability-of-gradient-descent),
 ### The Momentum Method
 
 ### Numerical Experiment
+
+{% include reproducibility.html
+   description="The numerical experiments and figures presented in this article were generated using Python. The complete implementation and experimental setup are available in the accompanying Jupyter notebook."
+   url="https://github.com/wap314/Gradient-Descent-Experiment/blob/main/GD_experiment.ipynb"
+%}
 
 ## Conclusion
