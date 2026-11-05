@@ -5,7 +5,10 @@ date: 2026-11-03
 categories: [Optimization]
 tags: [Gradient Descent, Numerical Optimization, Convex Function, Hessian Matrix]
 excerpt: "An exploration of the mathematical foundations and computational behavior of gradient descent and heavy ball."
-references: []
+references:
+  - boyd2004convex
+  - brunton2026optimization
+  - ruder2016gradient
 ---
 
 ## Introduction
@@ -30,7 +33,11 @@ Gradient descent is an iterative optimization algorithm. Its update rule is give
 \qquad k=0,1,2,\ldots
 \\]
 
+Gradient-based optimization methods are widely used in convex optimization {% include citation.html key="boyd2004convex" %}.
+
 ### Stability of Gradient Descent
+
+Given a convex quadratic function, we will examine how step size affect the stability of gradient descent {% include citation.html key="brunton2026optimization" %}.
 
 ### Optimal Step Size
 

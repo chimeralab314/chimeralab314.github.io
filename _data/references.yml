@@ -1,3 +1,12 @@
+boyd2004convex:
+  type: book
+  author: "Boyd, Stephen and Vandenberghe, Lieven"
+  year: 2004
+  title: "Convex Optimization"
+  publisher: "Cambridge University Press"
+  isbn: "9780521833783"
+  doi: "10.1017/CBO9780511804441"
+
 brunton2026optimization:
   type: book
   author: "Brunton, Steven L."
