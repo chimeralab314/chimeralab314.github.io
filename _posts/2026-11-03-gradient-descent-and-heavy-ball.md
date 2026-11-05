@@ -38,6 +38,39 @@ Gradient descent is an iterative optimization algorithm. Its update rule is give
 
 ### Numerical Experiment
 
+#### Experiment 1
+
+{% include figure.html
+   id="gd-exp1-stepsize"
+   src="/assets/images/articles/step-size-effect.png"
+   alt="Plot showing the objective function's value vs iteration for different values of step sizes"
+   caption="The objective function's value vs iteration with different step sizes."
+%}
+
+<a href="#figure-gd-exp1-stepsize"></a> illustrates the effect of different step sizes on the objective function's value vs iterations.
+
+#### Experiment 2
+
+{% include figure.html
+   id="gd-contour"
+   src="/assets/images/articles/contour-plot.png"
+   alt="Contour plot showing gradient descent trajectories for two different step sizes"
+   caption="Gradient descent trajectories with different step sizes. The red trajectory uses the optimal step size, while the blue trajectory uses a smaller step size."
+%}
+
+<a href="#figure-gd-contour"></a> illustrates the effect of different step sizes on the gradient descent trajectory.
+
+{% include figure.html
+   id="gd-objfunction-vs-iteration"
+   src="/assets/images/articles/gd-second-plot.png"
+   alt="Plot showing the objective function's value vs iteration for two different step sizes"
+   caption="The objective function's value vs iteration with different step sizes. The red trajectory uses the optimal step size, while the blue trajectory uses a smaller step size."
+%}
+
+<a href="#figure-gd-objfunction-vs-iteration"></a> illustrates the effect of different step sizes on the objective function's value vs iterations.
+
+#### Experiment 3
+
 ## Heavy Ball
 
 ### The Momentum Method
