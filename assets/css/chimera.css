@@ -417,3 +417,9 @@ body {
     max-width: 840px;
     margin: 0 auto;
 }
+
+/* Justified alignment for article paragraphs */
+.article-content p {
+    text-align: justify;
+    text-justify: inter-word;
+}
