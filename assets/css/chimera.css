@@ -67,6 +67,11 @@ body {
     padding: 0 30px;
 }
 
+.main-content p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .main-content h1,
 .main-content h2,
 .main-content h3 {
@@ -214,7 +219,7 @@ body {
 .article-content {
     font-family: 'Lora', Georgia, serif;
     font-size: 18px;
-    line-height: 1.75;
+    line-height: 1.4;
     max-width: 900px;
 }
 
@@ -422,4 +427,14 @@ body {
 .article-content p {
     text-align: justify;
     text-justify: inter-word;
+}
+
+ol.parens {
+    list-style: none;
+    counter-reset: item;
+}
+
+ol.parens li::before {
+    counter-increment: item;
+    content: "(" counter(item, lower-alpha) ") ";
 }

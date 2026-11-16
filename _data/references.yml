@@ -16,6 +16,15 @@ brunton2026optimization:
   isbn: "9781009755863"
   doi: "10.1017/9781009755856"
 
+strang2019linearalgebra:
+  type: book
+  author: "Strang, Gilbert"
+  year: 2019
+  title: "Linear Algebra and Learning from Data" 
+  publisher: "Wellesley-Cambridge Press"
+  isbn: "978-0-692-19638-0"
+  doi: "10.1137/1.9780692196380"
+
 ruder2016gradient:
   type: article
   author: "Ruder, Sebastian"
